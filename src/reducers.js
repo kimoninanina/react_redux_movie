@@ -18,7 +18,7 @@ const reducer = (state = {
         ...state,
         myList: [...state.myList, data],
         recommendations: state.recommendations.filter((da) => {
-          return da['id'] != id;
+          return da['id'] !== id;
         })
       }
     }
@@ -28,7 +28,7 @@ const reducer = (state = {
       return {
         ...state,
         myList: state.myList.filter((da) => {
-          return da['id'] != id;
+          return da['id'] !==id;
         }),
         recommendations: [...state.recommendations, data],
       };
