@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.app {
+  padding: 32px;
+  background-color: black;
+  color: #e50914;
+}
+
+.app h2 {
+  margin: 0 0 24px;
+  font-size: 42px;
+}
+
+.app section {
+  margin-bottom: 24px;
+}
+
+.logo {
+  margin-bottom: 24px;
+  width: 120px;
+}
+
+.card-list {
+  display: flex;
+  padding: 0 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card + .card {
+  margin-left: 24px;
+}
+
+.card:hover button {
+  opacity: 1;
+}
+
+.card h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+
+.card button {
+  opacity: 0;
+}
+
+.card-main {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  font-style: italic;
+  font-size: 24px;
+}
